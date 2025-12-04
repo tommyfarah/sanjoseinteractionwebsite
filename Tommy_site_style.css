@@ -1,0 +1,31 @@
+body {
+  background-color: lightskyblue;
+}
+
+h1 {
+  color: greenyellow;
+}
+
+p {
+  font-family: verdana;
+  font-size: 30px;
+  color: rgb(255, 255, 255);
+}
+
+.air {
+  font-size: 30px;
+  color: rgb(141, 245, 66);
+}
+
+.maincontainer {
+/*  border-style: solid;
+  border-color: blue;*/
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.subcontainer {
+/*  border-style: solid;
+  border-color: green;*/
+  text-align: center;
+}
